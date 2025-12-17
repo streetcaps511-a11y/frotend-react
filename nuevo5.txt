@@ -1,0 +1,134 @@
+Table Productos {
+  IdProducto int
+  Nombre varchar
+  Url varchar
+  Talla varchar
+  Color varchar
+  Precio decimal
+  IdProveedor int
+  IdCategoria int
+  Estado varchar
+}
+
+Table Proveedores {
+  IdProveedor int
+  TipoDocumento varchar
+  NumeroDocumento varchar
+  Nombre varchar
+  Telefono varchar
+  Email varchar
+}
+
+Table Categorias {
+  IdCategoria int
+  Nombre varchar
+  Estado varchar
+  IdProveedor int
+}
+
+Table Compras {
+  IdCompra int
+  Fecha date
+  IdUsuario int
+  IdProveedor int
+  Estado varchar
+}
+
+Table DetalleCompras {
+  IdDetalleCompra int
+  IdCompra int
+  IdProducto int
+  Cantidad int
+  Precio decimal
+  Subtotal decimal
+  MetodoPago varchar
+  Estado varchar
+}
+
+Table Clientes {
+  Id int
+  TipoDocumento varchar
+  Documento varchar
+  Nombre varchar
+  Telefono varchar
+  Email varchar
+  Clave varchar
+  Rol varchar
+}
+
+Table Ventas {
+  IdVenta int
+  IdCliente int
+  IdUsuario int
+  Fecha date
+  MetodoPago varchar
+  Estado varchar
+}
+
+Table DetalleVentas {
+  IdDetalleVenta int
+  IdVenta int
+  IdProducto int
+  Cantidad int
+  Precio decimal
+  Subtotal decimal
+  MetodoPago varchar
+  Estado varchar
+}
+
+Table Devoluciones {
+  IdDevolucion int
+  IdDetalleVenta int
+  IdProducto int
+  FechaDevolucion date
+  Motivo varchar
+  Estado varchar
+}
+
+Table Usuarios {
+  IdUsuario int
+  TipoDocumento varchar
+  NumeroDocumento varchar
+  Nombre varchar
+  Url varchar
+  Email varchar
+  Clave varchar
+  IdRol int
+}
+
+Table Roles {
+  IdRol int
+  Nombre varchar
+  Descripcion varchar
+  Estado varchar
+}
+
+Table Permisos {
+  IdPermiso int
+  Nombre varchar
+  Descripcion varchar
+  Estado varchar
+}
+
+Table DetallePermisos {
+  IdDetallePermiso int
+  IdRol int
+  IdPermiso int
+}
+
+Ref: Productos.IdProveedor > Proveedores.IdProveedor
+Ref: Productos.IdCategoria > Categorias.IdCategoria
+Ref: Categorias.IdProveedor > Proveedores.IdProveedor
+Ref: Compras.IdProveedor > Proveedores.IdProveedor
+Ref: Compras.IdUsuario > Usuarios.IdUsuario
+Ref: DetalleCompras.IdCompra > Compras.IdCompra
+Ref: DetalleCompras.IdProducto > Productos.IdProducto
+Ref: Ventas.IdCliente > Clientes.Id
+Ref: Ventas.IdUsuario > Usuarios.IdUsuario
+Ref: DetalleVentas.IdVenta > Ventas.IdVenta
+Ref: DetalleVentas.IdProducto > Productos.IdProducto
+Ref: Devoluciones.IdDetalleVenta > DetalleVentas.IdDetalleVenta
+Ref: Devoluciones.IdProducto > Productos.IdProducto
+Ref: Usuarios.IdRol > Roles.IdRol
+Ref: DetallePermisos.IdRol > Roles.IdRol
+Ref: DetallePermisos.IdPermiso > Permisos.IdPermiso

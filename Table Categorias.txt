@@ -1,0 +1,80 @@
+[
+  {
+    "IdCategoria": 1,
+    "Nombre": "NIKE 1.1",
+    "Descripcion": "Gorras Nike oficiales, edición limitada y premium",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 2,
+    "Nombre": "A/N 1.1",
+    "Descripcion": "Colección A/N - Diseños exclusivos y modernos",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 3,
+    "Nombre": "BEISBOLERA PREMIUM",
+    "Descripcion": "Gorras beisboleras de alta calidad, materiales premium",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 4,
+    "Nombre": "DIAMANTE IMPORTADA",
+    "Descripcion": "Gorras importadas con acabado diamante, estilo urbano",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 5,
+    "Nombre": "EQUINAS-AGROPECUARIAS",
+    "Descripcion": "Gorras para uso agropecuario y campo, resistentes y funcionales",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 6,
+    "Nombre": "EXCLUSIVA 1.1",
+    "Descripcion": "Línea exclusiva, ediciones limitadas y diseños únicos",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 7,
+    "Nombre": "MONASTERY 1.1",
+    "Descripcion": "Colección Monastery, estilos minimalistas y urbanos",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 8,
+    "Nombre": "MULTIMARCA",
+    "Descripcion": "Gorras de múltiples marcas, variedad amplia y precios accesibles",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 9,
+    "Nombre": "PLANA CERRADA 1.1",
+    "Descripcion": "Gorras planas con visera cerrada, ideal para streetwear",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 10,
+    "Nombre": "PLANA IMPORTADA",
+    "Descripcion": "Gorras planas importadas, diseños internacionales y tendencia global",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 11,
+    "Nombre": "PORTAGORRAS",
+    "Descripcion": "Accesorios y organizadores para almacenar gorras",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 12,
+    "Nombre": "PREMIUM",
+    "Descripcion": "Gorras premium, bordados 3D, materiales de lujo y ajuste perfecto",
+    "Estado": true
+  },
+  {
+    "IdCategoria": 13,
+    "Nombre": "camisetas",
+    "Descripcion": "camisetas complementarios a la colección de gorras, diseño coordinado",
+    "Estado": true
+  }
+]

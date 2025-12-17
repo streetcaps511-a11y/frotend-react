@@ -1,0 +1,36 @@
+[
+  // -------------------------
+  // 1. Administrador (IdRol: 1) - Todos los Permisos
+  // -------------------------
+  { "IdRol": 1, "IdPermiso": "ventas" },
+  { "IdRol": 1, "IdPermiso": "devoluciones" },
+  { "IdRol": 1, "IdPermiso": "productos" },
+  { "IdRol": 1, "IdPermiso": "proveedores" },
+  { "IdRol": 1, "IdPermiso": "usuarios" },
+  { "IdRol": 1, "IdPermiso": "clientes" },
+  { "IdRol": 1, "IdPermiso": "compras" },
+  { "IdRol": 1, "IdPermiso": "reportes" },
+
+  // -------------------------
+  // 2. Gerente (IdRol: 2)
+  // -------------------------
+  { "IdRol": 2, "IdPermiso": "ventas" },
+  { "IdRol": 2, "IdPermiso": "devoluciones" },
+  { "IdRol": 2, "IdPermiso": "reportes" },
+  { "IdRol": 2, "IdPermiso": "clientes" },
+  { "IdRol": 2, "IdPermiso": "proveedores" },
+
+  // -------------------------
+  // 3. Vendedor (IdRol: 3)
+  // -------------------------
+  { "IdRol": 3, "IdPermiso": "ventas" },
+  { "IdRol": 3, "IdPermiso": "devoluciones" },
+  { "IdRol": 3, "IdPermiso": "clientes" },
+
+  // -------------------------
+  // 4. Almacén (IdRol: 4)
+  // -------------------------
+  { "IdRol": 4, "IdPermiso": "productos" },
+  { "IdRol": 4, "IdPermiso": "compras" },
+  { "IdRol": 4, "IdPermiso": "proveedores" }
+]

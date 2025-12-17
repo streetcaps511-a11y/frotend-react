@@ -1,0 +1,117 @@
+Table Productos {
+  IdProducto integer [primary key]
+  Nombre varchar
+  Descripcion text
+  Stock integer
+  Precio decimal
+  Estado boolean
+  IdCategoria integer [ref: > Categorias.IdCategoria]
+  Talla varchar
+  Color varchar
+}
+
+Table Proveedores {
+  IdProveedor integer [primary key]
+  Nombre varchar
+  TipoDocumento varchar
+  NumeroDocumento varchar
+  Telefono varchar
+  Direccion varchar
+  Correo varchar
+  Estado boolean
+}
+
+Table Categorias {
+  IdCategoria integer [primary key]
+  Nombre varchar
+  Estado boolean
+}
+
+Table Compras {
+  IdCompra integer [primary key]
+  IdProveedor integer [ref: > Proveedores.IdProveedor]
+  Fecha timestamp
+  Total decimal
+  Estado boolean
+}
+
+Table DetalleCompras {
+  IdDetalleCompra integer [primary key]
+  IdCompra integer [ref: > Compras.IdCompra]
+  IdProducto integer [ref: > Productos.IdProducto]
+  Cantidad integer
+  Precio decimal
+  Subtotal decimal
+}
+
+Table Devoluciones {
+  IdDevolucion integer [primary key]
+  IdProducto integer [ref: > DetalleVentas.IdProducto]
+  IdVenta integer [ref: > Ventas.IdVenta]
+  Cantidad integer
+  Motivo text
+  Fecha timestamp
+  Monto decimal
+}
+
+Table Clientes {
+  IdCliente integer [primary key]
+  Nombre varchar
+  Telefono varchar
+  Correo varchar
+  Estado boolean
+  Departamento varchar
+  Ciudad varchar
+  Direccion varchar
+  SaldoaFavor varchar
+}
+
+Table Ventas {
+  IdVenta integer [primary key]
+  IdCliente integer [ref: > Clientes.IdCliente]
+  IdEstado integer [ref: > Estado.IdEstado]
+  Fecha timestamp
+  Total decimal
+}
+
+Table DetalleVentas {
+  IdDetalleVenta integer [primary key]
+  IdVenta integer [ref: > Ventas.IdVenta]
+  IdProducto integer [ref: > Productos.IdProducto]
+  Cantidad integer
+  Precio decimal
+  Subtotal decimal
+}
+
+Table Usuarios {
+  IdUsuario integer [primary key]
+  Nombre varchar
+  Correo varchar
+  Clave varchar
+  Estado boolean
+  IdRol integer [ref: > Roles.IdRol]
+}
+
+Table Roles {
+  IdRol integer [primary key]
+  Nombre varchar
+  Estado boolean
+}
+
+Table Permisos {
+  IdPermiso varchar [primary key]
+  Nombre text
+}
+
+Table DetallePermisos {
+  IdDetalle integer [primary key]
+  IdRol integer [ref: > Roles.IdRol]
+  IdPermiso varchar [ref: > Permisos.IdPermiso]
+}
+
+Table Estado {
+  IdEstado integer [primary key]
+  Nombre varchar
+  Estado boolean
+}
+

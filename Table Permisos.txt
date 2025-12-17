@@ -1,0 +1,42 @@
+[
+  {
+    "IdPermiso": "ventas",
+    "Nombre": "Ventas",
+    "Descripcion": "Gestionar transacciones de venta y reportes"
+  },
+  {
+    "IdPermiso": "devoluciones",
+    "Nombre": "Devoluciones",
+    "Descripcion": "Gestionar solicitudes de devolución y reembolsos"
+  },
+  {
+    "IdPermiso": "productos",
+    "Nombre": "Productos",
+    "Descripcion": "Crear, editar, eliminar y gestionar catálogo de productos"
+  },
+  {
+    "IdPermiso": "proveedores",
+    "Nombre": "Proveedores",
+    "Descripcion": "Crear, editar, eliminar y gestionar proveedores"
+  },
+  {
+    "IdPermiso": "usuarios",
+    "Nombre": "Usuarios",
+    "Descripcion": "Crear, editar, eliminar y gestionar usuarios del sistema"
+  },
+  {
+    "IdPermiso": "clientes",
+    "Nombre": "Clientes",
+    "Descripcion": "Editar información y activar/desactivar clientes"
+  },
+  {
+    "IdPermiso": "compras",
+    "Nombre": "Compras",
+    "Descripcion": "Gestionar compras a proveedores"
+  },
+  {
+    "IdPermiso": "reportes",
+    "Nombre": "Reportes",
+    "Descripcion": "Generar y ver reportes del sistema"
+  }
+]

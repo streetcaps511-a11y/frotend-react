@@ -1,0 +1,41 @@
+
+  {
+    "IdProducto": 358,
+    "Nombre": "Negra con el escudo",
+    "Descripcion": null,
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "N 1.1-20251109T032425...",
+    "Color": "Negra",
+    "IdTallas": null,
+    "NombreArchivo": "negraconelescudo.jpg",
+    "URL": "/assets/N 1.1/negraconelescudo.jpg"
+  },
+  {
+    "IdProducto": 359,
+    "Nombre": "Negra con el escudo verde",
+    "Descripcion": null,
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "N 1.1-20251109T032425...",
+    "Color": "Negra/Verde",
+    "IdTallas": null,
+    "NombreArchivo": "negraconelescudoverde.jpg",
+    "URL": "/assets/N 1.1/negraconelescudoverde.jpg"
+  },
+  {
+    "IdProducto": 360,
+    "Nombre": "Verde Nacional Icon",
+    "Descripcion": null,
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "N 1.1-20251109T032425...",
+    "Color": "Verde",
+    "IdTallas": null,
+    "NombreArchivo": "verdenacionalcon.jpg",
+    "URL": "/assets/N 1.1/verdenacionalcon.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+
+
+  {
+    "IdProducto": 462,
+    "Nombre": "Portagorras Sencillo 1",
+    "Descripcion": "Accesorio",
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "PORTAGORRAS-202511...",
+    "Color": "Genérico",
+    "IdTallas": null,
+    "NombreArchivo": "portagorras-1sencillo.jpg",
+    "URL": "/assets/PORTAGORRAS/portagorras-1sencillo.jpg"
+  },
+  {
+    "IdProducto": 463,
+    "Nombre": "Portagorras Blowup 4",
+    "Descripcion": "Accesorio",
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "PORTAGORRAS-202511...",
+    "Color": "Genérico",
+    "IdTallas": null,
+    "NombreArchivo": "portagorrablowup4.jpg",
+    "URL": "/assets/PORTAGORRAS/portagorrablowup4.jpg"
+  },
+  {
+    "IdProducto": 464,
+    "Nombre": "Portagorras New Era 3",
+    "Descripcion": "Accesorio",
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "PORTAGORRAS-202511...",
+    "Color": "Genérico",
+    "IdTallas": null,
+    "NombreArchivo": "portagorras3newera.jpg",
+    "URL": "/assets/PORTAGORRAS/portagorras3newera.jpg"
+  },
+  {
+    "IdProducto": 465,
+    "Nombre": "Portagorras Adidas",
+    "Descripcion": "Accesorio",
+    "Stock": null,
+    "Precio": null,
+    "Estado": null,
+    "IdCategoria": "PORTAGORRAS-202511...",
+    "Color": "Genérico",
+    "IdTallas": null,
+    "NombreArchivo": "posrtagorrasadidas.jpg",
+    "URL": "/assets/PORTAGORRAS/posrtagorrasadidas.jpg"
+  }
+]
+]
+]
+]
+]
+]
+]
